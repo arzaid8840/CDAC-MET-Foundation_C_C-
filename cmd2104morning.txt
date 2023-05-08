@@ -1,0 +1,40 @@
+  01  cd Foundations/Platform/Basics/
+  02  ls
+  03  vi encbuf.c
+  04  vi revbuf.c
+  05  cc -c encbuf.c revbuf.c 
+  06  ls
+  07  vi streamiotest.c
+  08  cc streamiotest.c -o program 
+  09  ./program 
+  10  ./program first.txt
+  11  ./program first.txt second.txt
+  12  vi streamiotest.c
+  13  cc streamiotest.c -o program 
+  14  ./program first.txt
+  15  ./program first.txt second.txt
+  16  ls
+  17  cp signaltest.c first.txt
+  18  ls
+  19  ./program first.txt second.txt
+  20  vi streamiotest.c
+  21  cc streamiotest.c -o program 
+  22  vi streamiotest.c
+  23  cc streamiotest.c -o program 
+  24  ll *.txt
+  25  ./program first.txt second.txt
+  26  ll *.txt
+  27  vi streamiotest.c
+  28  man read
+  29  vi streamiotest.c
+  30  cc streamiotest.c -o program 
+  31  cc streamiotest.c encbuf.o -o program 
+  32  vi streamiotest.c
+  33  cc streamiotest.c encbuf.o -o program 
+  34  vi first.txt 
+  35  ./program first.txt second.txt
+  36  vi second.txt 
+  37  ./program second.txt third.txt
+  38  vi third.txt 
+  39  vi streamiotest.c
+  40  history > cmd2104morning.txt 

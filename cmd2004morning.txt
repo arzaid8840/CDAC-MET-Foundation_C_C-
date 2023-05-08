@@ -1,0 +1,18 @@
+  665  cd Foundations/
+  666  mkdir Platform
+  667  cd Platform/
+  668  mkdir Basics
+  669  cd Basics/
+  670  vi syscalltest.c
+  671  cc syscalltest.c -o program
+  672  ./program Jack Jill John
+  673  ./program Jack Jill John Jane
+  674  ./program Jack and Jill John Jane
+  675  ./program "Jack and Jill" John Jane
+  676  vi syscalltest.c
+  677  cc syscalltest.c -o program
+  678  ./program Jack Jill John Jane
+  679  vi syscalltest.c
+  680  cd ..
+  681  ls
+  682  history >cmd2004morning.txt

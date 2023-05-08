@@ -1,0 +1,36 @@
+    1  cd Foundations/Methodology/Polymorphism/
+    2  cp adttest.cpp rttitest.cpp
+    3  vi rttitest.cpp 
+    4  c++ adttest.cpp series.o -o program 
+    5  c++ rttitest.cpp series.o -o program 
+    6  vi rttitest.cpp \
+    7  vi rttitest.cpp
+    8  c++ rttitest.cpp series.o -o program 
+    9  vi rttitest.cpp
+   10  c++ rttitest.cpp series.o -o program 
+   11  ./program 
+   12  vi rttitest.cpp
+   13  c++ rttitest.cpp series.o -o program 
+   14  ./program 
+   15  vi rttitest.cpp
+   16  c++ rttitest.cpp series.o -o program 
+   17  ./program 
+   18  vi rttitest.cpp
+   19  c++ rttitest.cpp series.o -o program 
+   20  vi rttitest.cpp
+   21  c++ rttitest.cpp series.o -o program 
+   22  vi rttitest.cpp
+   23  c++ rttitest.cpp series.o -o program 
+   24  ./program 
+   25  vi rttitest.cpp
+   26  c++ rttitest.cpp series.o -o program 
+   27  ./program 
+   28  vi rttitest.cpp
+   29  c++ rttitest.cpp series.o -o program 
+   30  ./program 
+   31  vi rttitest.cpp
+   32  cd ..
+   33  ls
+   34  cd ..
+   35  ls
+   36  history > cmd1904morning.txt 

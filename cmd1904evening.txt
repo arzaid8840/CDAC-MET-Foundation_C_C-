@@ -1,0 +1,60 @@
+  623  vi functmplttest.cpp
+  624  cd Polymorphism/
+  625  mv ../functmplttest.cpp .
+  626  c++ functmplttest.cpp -o program 
+  627  ./program 
+  628  mv ../functmplttest.cpp .
+  629  vi functmplttest.cpp
+  630  c++ functmplttest.cpp -o program 
+  631  ./program 
+  632  vi functmplttest.cpp
+  633  c++ functmplttest.cpp -o program 
+  634  ./program 
+  635  vi functmplttest.cpp
+  636  c++ functmplttest.cpp -o program 
+  637  vi functmplttest.cpp
+  638  c++ functmplttest.cpp -o program 
+  639  ./program 
+  640  vi functmplttest.cpp
+  641  c++ functmplttest.cpp -o program 
+  642  ./program 
+  643  vi functmplttest.cpp
+  644  c++ functmplttest.cpp -o program 
+  645  vi functmplttest.cpp
+  646  vi classtmplttest.cpp
+  647  c++ classtmplttest.cpp -o program
+  648  vi classtmplttest.cpp
+  649  c++ classtmplttest.cpp -o program
+  650  ./program 
+  651  vi classtmplttest.cpp
+  652  vi functmplttest.cpp
+  653  c++ functmplttest.cpp -o program 
+  654  ./program 
+  655  vi functmplttest.cpp
+  656  vi classtmplttest.cpp
+  657  c++ classtmplttest.cpp -o program
+  658  vi functmplttest.cpp
+  659  vi classtmplttest.cpp
+  660  ls
+  661  cp functmplttest.cpp /mnt/d/copy
+  662  cp classtmplttest.cpp /mnt/d/copy
+  663  exit
+  664  clear
+  665  cd Foundations/
+  666  mkdir Platform
+  667  cd Platform/
+  668  mkdir Basics
+  669  cd Basics/
+  670  vi syscalltest.c
+  671  cc syscalltest.c -o program
+  672  ./program Jack Jill John
+  673  ./program Jack Jill John Jane
+  674  ./program Jack and Jill John Jane
+  675  ./program "Jack and Jill" John Jane
+  676  vi syscalltest.c
+  677  cc syscalltest.c -o program
+  678  ./program Jack Jill John Jane
+  679  vi syscalltest.c
+  680  cd ..
+  681  ls
+  682  history >cmd2004morning.txt
